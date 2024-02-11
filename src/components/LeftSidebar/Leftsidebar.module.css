@@ -1,0 +1,60 @@
+.lsbcontainer {
+    background-color: rgb(25, 25, 25);
+    width: 6.2rem;
+    height: calc(100vh - 3.55rem);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.sidebaricontainer {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.855);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.sidebaricon {
+    margin: auto;
+}
+
+.sidebaricontext {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding: 0.2rem;
+}
+
+.sidebaricontainer:hover,
+.sidebaricontainer.active {
+    color: aliceblue;
+    background-color: rgb(65, 65, 68);
+}
+
+/* Drawer Sidebar */
+
+.dlsbcontainer {
+    height: calc(100vh - 3.6rem);
+    position: absolute;
+    width: 100vw;
+    z-index: 500;
+}
+
+.dlsbcontainer2 {
+    background-color: rgb(28, 28, 28);
+    width: 15rem;
+    overflow-y: auto;
+}
+
+.dlsb,
+.librarybtndlsb {
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.293);
+}
+
+.sidebaricontainer p {
+    display: flex;
+    margin: 0;
+    color: white;
+}

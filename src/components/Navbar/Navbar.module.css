@@ -1,0 +1,82 @@
+.navcontainer {
+    border: 1px solid;
+    display: flex;
+    height: calc(3.5rem - 2px);
+    background-color: rgb(29, 26, 26);
+    justify-content: space-between;
+}
+
+.navburgerlogo {
+    display: flex;
+    height: 3.3rem;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    margin-left: 0.5rem;
+    margin-right: 0.7rem;
+    border-radius: 100%;
+}
+
+.burger p {
+    margin: 0.5px;
+    width: 1.2rem;
+    height: 0.1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.navlogo {
+    display: flex;
+    text-decoration: none;
+}
+
+.logotitle {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+
+.vidbell {
+    color: whitesmoke;
+    margin: auto 0.7rem;
+}
+
+.appsbox {
+    width: 25px;
+    margin: auto 0.7rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.appbox {
+    border: 1px solid white;
+    margin: 0.1rem;
+    width: 2px;
+    height: 2px;
+}
+
+.authcont {
+    width: fit-content;
+    margin: auto 0.5rem;
+    position: relative;
+    display: flex;
+}
+
+.authbtn {
+    cursor: pointer;
+    color: #3ea6ff;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid;
+    margin: 0;
+    padding: 0.1rem;
+    border-radius: 0.1rem;
+}
+
