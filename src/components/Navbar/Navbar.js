@@ -8,7 +8,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import { BiUserCircle } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({toggleDrawer}) => {
     const currentUser = {
         result: {
             email: "xyz@gmail.com",
@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <div className={styles.navcontainer}>
             <div className={styles.navburgerlogo}>
-                <div className={styles.burger}>
+                <div className={styles.burger} onClick={toggleDrawer}>
                     <p></p>
                     <p></p>
                     <p></p>
